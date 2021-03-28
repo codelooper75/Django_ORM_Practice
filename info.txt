@@ -1,0 +1,21 @@
+su roman 4826
+
+APPs:
+posts
+    есть One to many, Forign Key
+    select_related, prefetch_related
+    есть большой ORM.md файл с примерами)
+    user не модель,а просто id
+Django queryset tutorial: Making Queries in Django
+https://www.youtube.com/watch?v=sjMlffIVGf8&ab_channel=ProgrammingWithHarry
+
+
+
+blog
+    есть небольшой ORM.md файл с примерами)
+Django ORM (Querysets) [Django Beginner Tutorial 9]
+https://www.youtube.com/watch?v=NHLvPChQ4eE&ab_channel=aksonai
+pretty basic (user is model)
+
+books
+    есть many-to-many (как в примере из собесов)

@@ -1,0 +1,11 @@
+<div>
+    <h1>ORM Practice:</h1>
+</div>
+
+{% for post in all_posts %}
+    <div>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.published_date }}</p>
+        <p>{{ post.text }}</p>
+    </div>
+{% endfor %}
